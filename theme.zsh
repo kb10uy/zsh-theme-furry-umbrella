@@ -6,7 +6,7 @@ select-word-style default
 
 PROMPT=$'%{\e[38;5;%(!.124.33)m%}[%n@%m]%{\e[m%} %{\e[1;38;5;214;48;5;22m%}%~%{\e[m%}
 %(!.#.$) '
-PROMPT2="%(!.#.>)"
+PROMPT2="%(!.#.>) "
 
 zstyle ':zle:*' word-chars " /=;@:{},|"
 zstyle ':zle:*' word-style unspecified
